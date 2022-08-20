@@ -1,15 +1,8 @@
 {
-  "name": "peer-server",
-  "version": "1.0.0",
-  "description": "Simple peer server for peerjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "peerjs --port 3000"
-  },
-  "author": "Shree Krishna Lamichhane",
-  "license": "MIT",
   "dependencies": {
-    "peer": "^0.6.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "@mapbox/node-pre-gyp": "1.x",
+    "wrtc": "^0.4.7"
   }
 }
